@@ -2,17 +2,19 @@
 
 ## 请求说明
 
-以下所有接口请求域名为 `api.itooi.cn`,为了降低使用门槛，所有请求为`GET`请求
+以下所有接口请求域名为 `api.itooi.cn`,为了降低使用门槛，所有请求为`GET`请求,你也可以试用其他请求方式
+
+注意: 请求头中 `Content-type` 为 `application/x-www-form-urlencoded`
 
 请求地址 = 域名 + 接口地址 + 参数
 
 域名：`https://api.itooi.cn`
 
-接口地址：`music/netease/song`
+接口地址：`netease/song`
 
 参数：`id=526307800`
 
-示例： `https://api.itooi.cn/music/netease/song?id=526307800`
+示例： `https://api.itooi.cn/netease/song?id=526307800`
 
 ## 支持平台
     
@@ -28,9 +30,19 @@
 - 邮箱： mrdong916@163.com
 - Github： http://github.com/mrdong916
 
+## 关于项目
+
+目前没有打算开源的想法，不过有个旧版的开源项目，右上角项目地址可以访问到 [MessMusic](http://github.com/MessMusic)，如果真的想要源码，带着你的诚意来找群主讨论价格！
+
 ## 捐赠
+ 
+- 微信
 
+    ![微信](https://ws3.sinaimg.cn/large/c5e6b8d1ly1g179laxc6uj20bq0bqwfe)
 
+- 支付宝
+
+    ![支付宝](https://ws3.sinaimg.cn/large/c5e6b8d1ly1g179la77lxj20be0bet92)
 
 ## 更新日志
 
