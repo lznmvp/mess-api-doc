@@ -1,20 +1,27 @@
 !>  `api.bzqll.com` 此域名由于不知名网友在微信使用API,导致微信认为诱导分享 :angry: 目前在微信已经被封禁，仅做保留，5月底将停止该域名访问，如果使用此域名请尽快更换新的域名 `api.itooi.cn`
 
+## 新版特性
+
+1. 相对更加稳定,服务器不再过滤参数内容,用户自行解析参数,减少参数解析出错几率
+2. 网易云可获取收费资源内容和获取更高音质的音乐（支持无损）
+3. 接口更加丰富,增加部分接口和平台
+4. 降低门槛,参数简单统一,支持GET,POST等请求,支持跨域调用
+
 ## 请求说明
 
-以下所有接口请求域名为 `api.itooi.cn`,为了降低使用门槛，所有请求为`GET`请求,你也可以试用其他请求方式
+以下所有接口请求域名为 `v1.itooi.cn`,为了降低使用门槛，所有请求为`GET`请求,你也可以试用其他请求方式
 
 注意: 请求头中 `Content-type` 为 `application/x-www-form-urlencoded`
 
 请求地址 = 域名 + 接口地址 + 参数
 
-域名：`https://api.itooi.cn`
+域名：`https://v1.itooi.cn`
 
 接口地址：`netease/song`
 
 参数：`id=526307800`
 
-示例： `https://api.itooi.cn/netease/song?id=526307800`
+示例： `https://v1.itooi.cn/netease/song?id=526307800`
 
 ## 支持平台
     
@@ -36,13 +43,7 @@
 
 ## 捐赠
  
-- 微信
-
-    ![微信](https://ws3.sinaimg.cn/large/c5e6b8d1ly1g179laxc6uj20bq0bqwfe)
-
-- 支付宝
-
-    ![支付宝](https://ws3.sinaimg.cn/large/c5e6b8d1ly1g179la77lxj20be0bet92)
+[![pay.png](https://i.loli.net/2019/04/26/5cc2a151aebe2.png)](https://i.loli.net/2019/04/26/5cc2a151aebe2.png)
 
 ## 更新日志
 
