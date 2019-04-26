@@ -4,7 +4,7 @@
 
 接口地址: `tencent/song`
 
-请求示例: `tencent/song?id=526307800,526307800`
+请求示例: `tencent/song?id=xxxx,xxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -14,20 +14,20 @@
 
 接口地址: `tencent/url`
 
-请求示例: `tencent/url?id=526307800&br=999000`
+请求示例: `tencent/url?id=xxxx&quality=128`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
 |id|√|音乐ID|无|
-|quality|√|音质 如果最大音质获取出错则自动转其他音质|默认320000 |
+|quality|√|音质 如果最大音质获取出错则自动转其他音质|默认192 |
 
-说明: 码率类型：128000 192000 320000 999000
+说明: 码率类型：24 96 128 192 320 ape flac
 
 ## 获取音乐歌词
 
 接口地址: `tencent/lrc`
 
-请求示例: `tencent/lrc?id=526307800`
+请求示例: `tencent/lrc?id=xxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -37,7 +37,7 @@
 
 接口地址: `tencent/pic`
 
-请求示例: `tencent/pic?id=526307800`
+请求示例: `tencent/pic?id=xxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -48,7 +48,7 @@
 
 接口地址: `tencent/album`
 
-请求示例: `tencent/album?id=32311`
+请求示例: `tencent/album?id=xxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -60,13 +60,12 @@
 
 接口地址: `tencent/songList`
 
-请求示例: `tencent/songList?id=3778678&limit=100`
+请求示例: `tencent/songList?id=xxxx&pageSize=100&page=0`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
-|id|√|网易云歌单的ID|无|
+|id|√|歌单的ID|无|
 
-由于网易云接口本身不支持分页，固定位每次请求1000条,超出1000首歌的歌单无法获取完整歌单
 
 ## 搜索
 
@@ -76,7 +75,7 @@
 
 接口地址: `tencent/search`
 
-请求示例: `tencent/search?s=我喜欢上你内心时的活动&type=song&limit=100&offset=0`
+请求示例: `tencent/search?s=xxxx&type=song&pageSize=100&page=0`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -97,7 +96,7 @@
 
 接口地址: `tencent/songList/hot`
 
-请求示例: `tencent/songList/hot?cat=全部&limit=100&offset=0`
+请求示例: `tencent/songList/hot?cat=全部&pageSize=100&page=0`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -110,7 +109,7 @@
 
 接口地址:`tencent/songList/user`
 
-请求示例: `tencent/songList/user?uid=115119971`
+请求示例: `tencent/songList/user?uid=xxxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -120,7 +119,7 @@
 
 接口地址: `tencent/mv`
 
-请求示例: `tencent/mv?id=5965802`
+请求示例: `tencent/mv?id=xxxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -130,12 +129,12 @@
 
 接口地址: `tencent/mvUrl`
 
-请求示例: `tencent/mvUrl?id=5965802&r=1080`
+请求示例: `tencent/mvUrl?id=xxxx&quality=1080`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
 |id|√|MVID||
-|qualityr|×|视频格式|默认480 |
+|quality|×|视频格式|默认480 |
 
 说明: 视频大小类型：1080 720 480 240
 
@@ -149,7 +148,7 @@
 
 接口地址: `tencent/mv/hot`
 
-请求示例: `tencent/mv/hot?limit=10&offset=0`
+请求示例: `tencent/mv/hot?&pageSize=100&page=0`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -269,9 +268,9 @@
 
 ## 音乐热门评论
 
-接口地址: `tencent/comment/song`
+接口地址: `tencent/comment/song/hot`
 
-请求示例: `tencent/comment/song?id=xxxx&page=0&pageSize=30`
+请求示例: `tencent/comment/song/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -281,9 +280,9 @@
 
 ## 专辑热门评论
 
-接口地址: `tencent/comment/album`
+接口地址: `tencent/comment/album/hot`
 
-请求示例: `tencent/comment/album?id=xxxx&page=0&pageSize=30`
+请求示例: `tencent/comment/album/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -293,9 +292,9 @@
 
 ## MV热门评论
 
-接口地址: `tencent/comment/mv`
+接口地址: `tencent/comment/mv/hot`
 
-请求示例: `tencent/comment/mv?id=xxxx&page=0&pageSize=30`
+请求示例: `tencent/comment/mv/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -305,9 +304,9 @@
 
 ## 榜单热门评论
 
-接口地址: `tencent/comment/top`
+接口地址: `tencent/comment/top/hot`
 
-请求示例: `tencent/comment/top?id=xxxx&page=0&pageSize=30`
+请求示例: `tencent/comment/top/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -317,9 +316,9 @@
 
 ## 歌单热门评论
 
-接口地址: `tencent/comment/songList`
+接口地址: `tencent/comment/songList/hot`
 
-请求示例: `tencent/comment/songList?id=xxxx&page=0&pageSize=30`
+请求示例: `tencent/comment/songList/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|

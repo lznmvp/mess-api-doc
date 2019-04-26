@@ -4,7 +4,7 @@
 
 接口地址: `netease/song`
 
-请求示例: `netease/song?id=526307800,526307800`
+请求示例: `netease/song?id=xxxx,xxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -14,7 +14,7 @@
 
 接口地址: `netease/url`
 
-请求示例: `netease/url?id=526307800&br=999000`
+请求示例: `netease/url?id=xxxx&quality=192000`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -27,7 +27,7 @@
 
 接口地址: `netease/lrc`
 
-请求示例: `netease/lrc?id=526307800`
+请求示例: `netease/lrc?id=xxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -37,7 +37,7 @@
 
 接口地址: `netease/pic`
 
-请求示例: `netease/pic?id=526307800`
+请求示例: `netease/pic?id=xxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -48,7 +48,7 @@
 
 接口地址: `netease/album`
 
-请求示例: `netease/album?id=32311`
+请求示例: `netease/album?id=xxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -60,7 +60,7 @@
 
 接口地址: `netease/songList`
 
-请求示例: `netease/songList?id=3778678&limit=100`
+请求示例: `netease/songList?id=xxxx&limit=100`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -76,7 +76,7 @@
 
 接口地址: `netease/search`
 
-请求示例: `netease/search?s=我喜欢上你内心时的活动&type=song&limit=100&offset=0`
+请求示例: `netease/search?s=xxx&type=song&limit=100&offset=0`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -124,7 +124,7 @@
 
 接口地址:`netease/songList/user`
 
-请求示例: `netease/songList/user?uid=115119971`
+请求示例: `netease/songList/user?uid=xxxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -134,7 +134,7 @@
 
 接口地址: `netease/mv`
 
-请求示例: `netease/mv?id=5965802`
+请求示例: `netease/mv?id=xxxxxx`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -144,12 +144,12 @@
 
 接口地址: `netease/mvUrl`
 
-请求示例: `netease/mvUrl?id=5965802&r=1080`
+请求示例: `netease/mvUrl?id=xxxx&quality=1080`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
 |id|√|MVID||
-|qualityr|×|视频格式|默认480 |
+|quality|×|视频格式|默认480 |
 
 说明: 视频大小类型：1080 720 480 240
 
@@ -295,9 +295,9 @@
 
 ## 音乐热门评论
 
-接口地址: `netease/comment/song`
+接口地址: `netease/comment/song/hot`
 
-请求示例: `netease/comment/song?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/song/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -307,9 +307,9 @@
 
 ## 专辑热门评论
 
-接口地址: `netease/comment/album`
+接口地址: `netease/comment/album/hot`
 
-请求示例: `netease/comment/album?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/album/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -319,9 +319,9 @@
 
 ## MV热门评论
 
-接口地址: `netease/comment/mv`
+接口地址: `netease/comment/mv/hot`
 
-请求示例: `netease/comment/mv?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/mv/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -331,9 +331,9 @@
 
 ## Video热门评论
 
-接口地址: `netease/comment/video`
+接口地址: `netease/comment/video/hot`
 
-请求示例: `netease/comment/video?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/video/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
@@ -343,9 +343,9 @@
 
 ## 歌单热门评论
 
-接口地址: `netease/comment/songList`
+接口地址: `netease/comment/songList/hot`
 
-请求示例: `netease/comment/songList?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/songList/hot?id=xxxx&page=0&pageSize=30`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
