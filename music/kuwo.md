@@ -74,11 +74,11 @@
 
 接口地址: `kuwo/search`
 
-请求示例: `kuwo/search?s=我喜欢上你内心时的活动&type=song&pageSize=100&page=0`
+请求示例: `kuwo/search?keyword=我喜欢上你内心时的活动&type=song&pageSize=100&page=0`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
-|s|×|搜索关键词|详细见下面说明|
+|keyword|×|搜索关键词|详细见下面说明|
 |type|×|搜索类型|默认为 song|
 |pageSize|×|请求数量|默认为30|
 |page|×|分页|默认第0页|
