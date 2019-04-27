@@ -60,7 +60,7 @@
 
 接口地址: `netease/songList`
 
-请求示例: `netease/songList?id=xxxx&limit=100`
+请求示例: `netease/songList?id=xxxx&pageSize=100`
 
 |参数说明|是否必须|说明|默认值|
 |------|-----|-----|---|
