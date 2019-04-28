@@ -1,4 +1,4 @@
-* [首页](README.md)
-* [我的博客](http://www.bzqll.com)
-* [项目地址](http://github.com/MessMusic)
-* [更新日志](changeLog.md)
+-   [首页](README.md)
+-   [我的博客](http://www.bzqll.com)
+-   [项目地址](http://github.com/MessMusic)
+-   [更新日志](changeLog.md)
