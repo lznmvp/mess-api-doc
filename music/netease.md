@@ -152,9 +152,9 @@
 
 ## MV 排行榜
 
-接口地址: `netease/mvList/top`
+接口地址: `netease/mv/top`
 
-请求示例: `netease/mvList/top?pageSize=10&page=0`
+请求示例: `netease/mv/top?pageSize=10&page=0`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
