@@ -4,7 +4,7 @@
 
 接口地址: `netease/song`
 
-请求示例: `netease/song?id=xxxx,xxxx`
+请求示例: `netease/song?id=37239038,526307800`
 
 | 参数说明 | 是否必须 | 说明                                                | 默认值 |
 | -------- | -------- | --------------------------------------------------- | ------ |
@@ -14,7 +14,7 @@
 
 接口地址: `netease/url`
 
-请求示例: `netease/url?id=xxxx&quality=192000`
+请求示例: `netease/url?id=37239038&quality=192000`
 
 | 参数说明 | 是否必须 | 说明                                      | 默认值      |
 | -------- | -------- | ----------------------------------------- | ----------- |
@@ -27,7 +27,7 @@
 
 接口地址: `netease/lrc`
 
-请求示例: `netease/lrc?id=xxxx`
+请求示例: `netease/lrc?id=37239038`
 
 | 参数说明 | 是否必须 | 说明    | 默认值           |
 | -------- | -------- | ------- | ---------------- |
@@ -37,7 +37,7 @@
 
 接口地址: `netease/pic`
 
-请求示例: `netease/pic?id=xxxx`
+请求示例: `netease/pic?id=37239038`
 
 | 参数说明 | 是否必须 | 说明    | 默认值                                       |
 | -------- | -------- | ------- | -------------------------------------------- |
@@ -48,7 +48,7 @@
 
 接口地址: `netease/album`
 
-请求示例: `netease/album?id=xxxx`
+请求示例: `netease/album?id=3159845`
 
 | 参数说明 | 是否必须 | 说明    | 默认值 |
 | -------- | -------- | ------- | ------ |
@@ -60,7 +60,7 @@
 
 接口地址: `netease/songList`
 
-请求示例: `netease/songList?id=xxxx&pageSize=100`
+请求示例: `netease/songList?id=141998290&pageSize=20`
 
 | 参数说明 | 是否必须 | 说明            | 默认值 |
 | -------- | -------- | --------------- | ------ |
@@ -76,7 +76,7 @@
 
 接口地址: `netease/search`
 
-请求示例: `netease/search?keyword=xxx&type=song&pageSize=100&page=0`
+请求示例: `netease/search?keyword=花粥&type=song&pageSize=20&page=0`
 
 | 参数说明 | 是否必须 | 说明       | 默认值         |
 | -------- | -------- | ---------- | -------------- |
@@ -108,7 +108,7 @@
 
 接口地址: `netease/songList/hot`
 
-请求示例: `netease/songList/hot?cat=全部&limit=100&offset=0`
+请求示例: `netease/songList/hot?cat=全部&limit=20&offset=0`
 
 | 参数说明     | 是否必须 | 说明               | 默认值                               |
 | ------------ | -------- | ------------------ | ------------------------------------ |
@@ -121,7 +121,7 @@
 
 接口地址:`netease/songList/user`
 
-请求示例: `netease/songList/user?uid=xxxxx`
+请求示例: `netease/songList/user?uid=115119971`
 
 | 参数说明 | 是否必须 | 说明    | 默认值  |
 | -------- | -------- | ------- | ------- |
@@ -131,7 +131,7 @@
 
 接口地址: `netease/mv`
 
-请求示例: `netease/mv?id=xxxxxx`
+请求示例: `netease/mv?id=10866117`
 
 | 参数说明 | 是否必须 | 说明  | 默认值 |
 | -------- | -------- | ----- | ------ |
@@ -141,7 +141,7 @@
 
 接口地址: `netease/mvUrl`
 
-请求示例: `netease/mvUrl?id=xxxx&quality=1080`
+请求示例: `netease/mvUrl?id=10866117&quality=1080`
 
 | 参数说明 | 是否必须 | 说明     | 默认值   |
 | -------- | -------- | -------- | -------- |
@@ -165,7 +165,7 @@
 
 接口地址: `netease/artist/info`
 
-请求示例: `netease/artist/info?id=xxxxxx`
+请求示例: `netease/artist/info?id=8103`
 
 | 参数说明 | 是否必须 | 说明    | 默认值 |
 | -------- | -------- | ------- | ------ |
@@ -186,7 +186,7 @@
 
 接口地址: `netease/song/artist`
 
-请求示例: `netease/song/artist?id=xxxxxx`
+请求示例: `netease/song/artist?id=8103`
 
 | 参数说明 | 是否必须 | 说明    | 默认值 |
 | -------- | -------- | ------- | ------ |
@@ -196,7 +196,7 @@
 
 接口地址: `netease/album/artist`
 
-请求示例: `netease/album/artist?id=xxxxxx`
+请求示例: `netease/album/artist?id=8103`
 
 | 参数说明 | 是否必须 | 说明    | 默认值 |
 | -------- | -------- | ------- | ------ |
@@ -206,7 +206,7 @@
 
 接口地址: `netease/mv/artist`
 
-请求示例: `netease/mv/artist?id=xxxxxx`
+请求示例: `netease/mv/artist?id=8103`
 
 | 参数说明 | 是否必须 | 说明    | 默认值 |
 | -------- | -------- | ------- | ------ |
@@ -228,7 +228,7 @@
 
 接口地址: `netease/comment/song`
 
-请求示例: `netease/comment/song?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/song?id=37239038&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -240,7 +240,7 @@
 
 接口地址: `netease/comment/album`
 
-请求示例: `netease/comment/album?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/album?id=3159845&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -252,7 +252,7 @@
 
 接口地址: `netease/comment/mv`
 
-请求示例: `netease/comment/mv?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/mv?id=10866117&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -264,7 +264,7 @@
 
 接口地址: `netease/comment/video`
 
-请求示例: `netease/comment/video?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/video?id=10866117&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -276,7 +276,7 @@
 
 接口地址: `netease/comment/songList`
 
-请求示例: `netease/comment/songList?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/songList?id=2509086690&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -288,7 +288,7 @@
 
 接口地址: `netease/comment/song/hot`
 
-请求示例: `netease/comment/song/hot?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/song/hot?id=37239038&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -300,7 +300,7 @@
 
 接口地址: `netease/comment/album/hot`
 
-请求示例: `netease/comment/album/hot?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/album/hot?id=3159845&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -312,7 +312,7 @@
 
 接口地址: `netease/comment/mv/hot`
 
-请求示例: `netease/comment/mv/hot?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/mv/hot?id=10866117&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -324,7 +324,7 @@
 
 接口地址: `netease/comment/video/hot`
 
-请求示例: `netease/comment/video/hot?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/video/hot?id=10866117&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
@@ -336,7 +336,7 @@
 
 接口地址: `netease/comment/songList/hot`
 
-请求示例: `netease/comment/songList/hot?id=xxxx&page=0&pageSize=30`
+请求示例: `netease/comment/songList/hot?id=2509086690&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
