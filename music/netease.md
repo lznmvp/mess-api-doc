@@ -95,7 +95,7 @@
 
 接口地址: `netease/songList/highQuality`
 
-请求示例: `netease/songList/highQuality?cat=全部&limit=100`
+请求示例: `netease/songList/highQuality?cat=全部&pageSize=100`
 
 | 参数说明     | 是否必须 | 说明                         | 默认值                               |
 | ------------ | -------- | ---------------------------- | ------------------------------------ |
@@ -108,7 +108,7 @@
 
 接口地址: `netease/songList/hot`
 
-请求示例: `netease/songList/hot?cat=全部&limit=20&offset=0`
+请求示例: `netease/songList/hot?cat=全部&pageSize=20&page=0`
 
 | 参数说明     | 是否必须 | 说明               | 默认值                               |
 | ------------ | -------- | ------------------ | ------------------------------------ |
@@ -154,7 +154,7 @@
 
 接口地址: `netease/mvList/top`
 
-请求示例: `netease/mvList/top?limit=10&offset=0`
+请求示例: `netease/mvList/top?pageSize=10&page=0`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
