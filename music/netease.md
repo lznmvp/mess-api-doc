@@ -10,6 +10,97 @@
 | -------- | -------- | --------------------------------------------------- | ------ |
 | id       | √        | 音乐 ID,可一次获取多首音乐信息,必须使用英文逗号分开 | 无     |
 
+```
+{
+  "code": 200,
+  "msg": "OK",
+  "timestamp": 1556617619521,
+  "data": {
+    "privileges": [ //数组 与songs中数组一一对应
+      {
+        "st": 0,
+        "flag": 0,
+        "subp": 1,
+        "fl": 320000,
+        "fee": 0,
+        "dl": 320000,
+        "cp": 1,
+        "preSell": false,
+        "cs": false,
+        "toast": false,
+        "maxbr": 999000, //当前音乐最大音质
+        "id": 483258619, //音乐ID
+        "pl": 320000,
+        "sp": 7,
+        "payed": 0
+      }
+    ],
+    "code": 200,
+    "songs": [
+      {
+        "no": 13,
+        "copyright": 2,
+        "fee": 0,
+        "mst": 9,
+        "pst": 0,
+        "pop": 100,
+        "dt": 128489,
+        "rtype": 0,
+        "s_id": 0,
+        "rtUrls": [],
+        "id": 483258619,//音乐ID
+        "st": 0,
+        "cd": "1",
+        "publishTime": 1481290807500,//发布时间
+        "cf": "",
+        "h": {
+          "br": 320000, //极高音质
+          "fid": 0,
+          "size": 5141987, //音乐大小 单位B
+          "vd": -2
+        },
+        "mv": 0, // MV ID 若为0则无对应MV
+        "al": {
+          "picUrl": "http://p2.music.126.net/OzLcwLmUSdoFvsxthLv3nA==/109951162820238045.jpg", //专辑图片
+          "name": "树深时见鹿dear的鬼畜歌~",//专辑名称
+          "tns": [],
+          "pic_str": "109951162820238045",
+          "id": 35035713,//专辑ID
+          "pic": 109951162820238045 //专辑图片ID
+        },
+        "l": {
+          "br": 128000, //标准音质
+          "fid": 0,
+          "size": 2056821, //音乐大小 单位B
+          "vd": -2
+        },
+        "m": {
+          "br": 192000, //较高音质
+          "fid": 0,
+          "size": 3085209, //音乐大小 单位B
+          "vd": -2
+        },
+        "cp": 0,
+        "alia": [],
+        "djId": 0,
+        "ar": [ //歌手信息
+          {
+            "name": "树深时见鹿dear", // 歌手名称
+            "tns": [],
+            "alias": [],
+            "id": 12205587 //歌手ID
+          }
+        ],
+        "ftype": 0,
+        "t": 0,
+        "v": 11,
+        "name": "【三国杀】这个rap有点带感" //歌曲名称
+      }
+    ]
+  }
+}
+```
+
 ## 音乐播放地址
 
 接口地址: `netease/url`
@@ -53,6 +144,174 @@
 | 参数说明 | 是否必须 | 说明    | 默认值 |
 | -------- | -------- | ------- | ------ |
 | id       | √        | 专辑 ID | 无     |
+
+```
+{
+    "code": 200,
+    "msg": "OK",
+    "timestamp": 1556618381899,
+    "data": {
+        "code": 200,
+        "songs": [ // 专辑中的音乐列表
+            {
+                "no": 1,
+                "fee": 0,
+                "privilege": {
+                    "st": 0,
+                    "flag": 0,
+                    "subp": 1,
+                    "fl": 320000,
+                    "fee": 0,
+                    "dl": 320000,
+                    "cp": 1,
+                    "preSell": false,
+                    "cs": false,
+                    "toast": false,
+                    "maxbr": 320000,
+                    "id": 445886177,
+                    "pl": 320000,
+                    "sp": 7,
+                    "payed": 0
+                },
+                "mst": 9,
+                "pst": 0,
+                "pop": 50,
+                "dt": 249858,
+                "rtype": 0,
+                "rtUrls": [],
+                "id": 445886177,// 音乐ID
+                "st": 0,
+                "cd": "1",
+                "cf": "",
+                "h": {
+                    "br": 320000,
+                    "fid": 18690598162123664,
+                    "size": 10004942,
+                    "vd": 2.58411
+                },
+                "mv": 0,
+                "al": {
+                    "picUrl": "http://p1.music.126.net/OzLcwLmUSdoFvsxthLv3nA==/109951162820238045.jpg",
+                    "name": "树深时见鹿dear的鬼畜歌~",
+                    "pic_str": "109951162820238045",
+                    "id": 35035713,
+                    "pic": 109951162820238050
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 18690598162123664,
+                    "size": 3001514,
+                    "vd": 2.4239
+                },
+                "cp": 0,
+                "m": {
+                    "br": 160000,
+                    "fid": 18690598162123664,
+                    "size": 5002494,
+                    "vd": 2.96423
+                },
+                "djId": 0,
+                "alia": [],
+                "ar": [ // 歌手信息
+                    {
+                        "name": "树深时见鹿dear",//歌手名称
+                        "id": 12205587 //歌手ID
+                    }
+                ],
+                "ftype": 0,
+                "t": 0,
+                "v": 31,
+                "name": "【不全明星】当你孤单你会想起谁"
+            }
+        ],
+        "album": { // 专辑信息
+            "artist": { 专辑主歌手
+                "img1v1Url": "http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                "picId_str": "109951162820236060",
+                "musicSize": 10,
+                "img1v1Id_str": "18686200114669622",
+                "img1v1Id": 18686200114669624,
+                "followed": false, // 是否关注该歌手
+                "albumSize": 1,
+                "picUrl": "http://p2.music.126.net/9Xz9eWM-q5lH1GXyQyLbGg==/109951162820236060.jpg", // 歌手图片
+                "topicPerson": 0,
+                "briefDesc": "",
+                "name": "树深时见鹿dear", // 歌手名称
+                "alias": [],
+                "id": 12205587, // 歌手ID
+                "picId": 109951162820236060,
+                "trans": ""
+            },
+            "description": "我的鬼畜歌 选择部分传的 b站同网易云ID 有未收录的想听的欢迎私信 反正我看了也懒得传 2333", // 专辑描述
+            "pic": 109951162820238050,
+            "type": "专辑",
+            "picUrl": "http://p2.music.126.net/OzLcwLmUSdoFvsxthLv3nA==/109951162820238045.jpg", //专辑图片
+            "briefDesc": "我的鬼畜歌 选择部分传的 b站同网易云ID 有未收录的想听的欢迎私信 反正我看了也懒得传 2333",
+            "artists": [ //专辑的歌手们
+                {
+                    "img1v1Url": "http://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                    "musicSize": 0,
+                    "img1v1Id_str": "18686200114669622",
+                    "img1v1Id": 18686200114669624,
+                    "followed": false,
+                    "albumSize": 0,
+                    "picUrl": "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "topicPerson": 0,
+                    "briefDesc": "",
+                    "name": "树深时见鹿dear",
+                    "alias": [],
+                    "id": 12205587,
+                    "picId": 0,
+                    "trans": ""
+                }
+            ],
+            "onSale": false,
+            "alias": [],
+            "id": 35035713, // 专辑ID
+            "picId": 109951162820238050,
+            "info": {
+                "threadId": "R_AL_3_35035713",
+                "shareCount": 44,
+                "resourceId": 35035713,
+                "commentThread": {
+                    "shareCount": 44,
+                    "resourceId": 35035713,
+                    "hotCount": 1,
+                    "resourceTitle": "树深时见鹿dear的鬼畜歌~",
+                    "resourceOwnerId": -1,
+                    "id": "R_AL_3_35035713",
+                    "likedCount": 0,
+                    "resourceInfo": {
+                        "imgUrl": "https://p2.music.126.net/OzLcwLmUSdoFvsxthLv3nA==/109951162820238045.jpg",
+                        "name": "树深时见鹿dear的鬼畜歌~",
+                        "id": 35035713,
+                        "userId": -1
+                    },
+                    "resourceType": 3,
+                    "commentCount": 48
+                },
+                "likedCount": 0,
+                "liked": false,
+                "resourceType": 3,
+                "commentCount": 48
+            },
+            "publishTime": 1481290807500, //专辑发布时间
+            "picId_str": "109951162820238045",
+            "blurPicUrl": "http://p2.music.126.net/OzLcwLmUSdoFvsxthLv3nA==/109951162820238045.jpg", //缩略图
+            "commentThreadId": "R_AL_3_35035713", //评论的ID信息
+            "tags": "",
+            "companyId": 0,
+            "size": 10,
+            "copyrightId": 0,
+            "songs": [],
+            "paid": false,
+            "name": "树深时见鹿dear的鬼畜歌~", //专辑名称
+            "subType": "录音室版", //专辑类型
+            "status": 0
+        }
+    }
+}
+```
 
 ## 音乐歌单
 
