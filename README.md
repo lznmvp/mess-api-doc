@@ -11,7 +11,7 @@
 
 ## 扫一扫 支持一下
 
-[![支付宝红包扫一扫](https://i.loli.net/2019/05/06/5ccf998b812ba.png)](https://i.loli.net/2019/05/06/5ccf998b812ba.png){:height="280px" width="420px"}
+<img src="https://i.loli.net/2019/05/06/5ccf998b812ba.png" style="zoom:36%" alt="支付宝红包扫一扫" />
 
 ## 请求说明
 
