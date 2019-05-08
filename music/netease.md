@@ -421,6 +421,60 @@
 
 请求示例: `netease/songList/category`
 
+```json
+{
+  "code": 200,
+  "msg": "OK",
+  "timestamp": 1557323584425,
+  "data": {
+    "all": { //顶级类型 包含所有
+      "imgId": 0,
+      "activity": false,
+      "resourceCount": 1000,
+      "name": "全部歌单", //分类名称
+      "type": 0,
+      "category": 4,
+      "hot": false,
+      "resourceType": 0
+    },
+    "sub": [ //子级分类类型
+      {
+        "imgId": 0,
+        "activity": false,
+        "resourceCount": 1000,
+        "name": "流行",//子级分类名称
+        "type": 0,
+        "category": 1,
+        "hot": true,
+        "resourceType": 0
+      },
+      
+      .........
+
+      {
+        "imgId": 0,
+        "activity": false,
+        "resourceCount": 1000,
+        "name": "华语",
+        "type": 0,
+        "category": 0, //父级分类ID
+        "hot": true, 
+        "resourceType": 0
+      }
+    ],
+    "code": 200,
+    "categories": { // 父级分类类型
+      "0": "语种", //父级分类ID和名称
+      "1": "风格",
+      "2": "场景",
+      "3": "情感",
+      "4": "主题"
+    }
+  }
+}
+
+```
+
 ## 精品歌单
 
 接口地址: `netease/songList/highQuality`
