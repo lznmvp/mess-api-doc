@@ -1,4 +1,4 @@
-!> `api.bzqll.com` 此域名由于不知名网友在微信使用 API,导致微信认为诱导分享 :angry: 目前在微信已经被封禁，仅做保留，5 月底将停止该域名访问，如果使用此域名请尽快更换新的域名 `api.itooi.cn`
+!> `api.bzqll.com` 此域名由于不知名网友在微信使用 API,导致微信认为诱导分享 :angry: 目前在微信已经被封禁，仅做保留，5 月底将停止该域名访问，如果使用此域名请尽快更换新的域名 `api.itooi.cn`,`api.itooi.cn`已经不再更新,请使用新版 API,新版请往下看.
 
 ## 新版特性
 
@@ -51,6 +51,7 @@
 -   QQ 群 ②：261097396（群友交流）
 -   邮箱： mrdong916@163.com
 -   Github： http://github.com/mrdong916
+-   Telegram: http://t.me/messapi
 
 ## 关于项目
 
