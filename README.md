@@ -64,6 +64,8 @@
 
 ## 捐赠
 
+图片若不显示请点击这里 [二维码](https://i.loli.net/2019/04/26/5cc2a151aebe2.png)
+
 [![pay.png](https://i.loli.net/2019/04/26/5cc2a151aebe2.png)](https://i.loli.net/2019/04/26/5cc2a151aebe2.png)
 
 ## 更新日志
