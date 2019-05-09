@@ -195,11 +195,11 @@
                 },
                 "mv": 0,
                 "al": {
-                    "picUrl": "http://p1.music.126.net/OzLcwLmUSdoFvsxthLv3nA==/109951162820238045.jpg",
+                    "picUrl": "http://p1.music.126.net/OzLcwLmUSdoFvsxthLv3nA==/109951162820238045.jpg", //专辑图片
                     "name": "树深时见鹿dear的鬼畜歌~",
-                    "pic_str": "109951162820238045",
-                    "id": 35035713,
-                    "pic": 109951162820238050
+                    "pic_str": "109951162820238045", //图片ID
+                    "id": 35035713, //音乐所属专辑ID
+                    "pic": 109951162820238050 //图片ID
                 },
                 "l": {
                     "br": 96000,
@@ -225,7 +225,7 @@
                 "ftype": 0,
                 "t": 0,
                 "v": 31,
-                "name": "【不全明星】当你孤单你会想起谁"
+                "name": "【不全明星】当你孤单你会想起谁" //音乐名称
             }
         ],
         "album": { // 专辑信息
@@ -259,12 +259,12 @@
                     "img1v1Id": 18686200114669624,
                     "followed": false,
                     "albumSize": 0,
-                    "picUrl": "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picUrl": "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg", //歌手图片
                     "topicPerson": 0,
                     "briefDesc": "",
                     "name": "树深时见鹿dear",
                     "alias": [],
-                    "id": 12205587,
+                    "id": 12205587, //歌手ID
                     "picId": 0,
                     "trans": ""
                 }
@@ -273,8 +273,8 @@
             "alias": [],
             "id": 35035713, // 专辑ID
             "picId": 109951162820238050,
-            "info": {
-                "threadId": "R_AL_3_35035713",
+            "info": {  //评论信息
+                "threadId": "R_AL_3_35035713", 
                 "shareCount": 44,
                 "resourceId": 35035713,
                 "commentThread": {
@@ -292,12 +292,12 @@
                         "userId": -1
                     },
                     "resourceType": 3,
-                    "commentCount": 48
+                    "commentCount": 48 //评论数量统计
                 },
                 "likedCount": 0,
                 "liked": false,
                 "resourceType": 3,
-                "commentCount": 48
+                "commentCount": 48 //评论数量统计
             },
             "publishTime": 1481290807500, //专辑发布时间
             "picId_str": "109951162820238045",
@@ -332,6 +332,75 @@
 
 由于网易云接口本身不支持分页，固定位每次请求 1000 条,超出 1000 首歌的歌单无法获取完整歌单
 
+```json
+{
+    "code": 200,
+    "msg": "OK",
+    "timestamp": 1557322797607,
+    "data": {
+        "privacy": 0,
+        "trackNumberUpdateTime": 1546580252461, //歌单更新时间
+        "subscribed": false, //是否关注
+        "shareCount": 0, //分享次数
+        "adType": 0, 
+        "trackCount": 10, //音乐数量
+        "specialType": 20, 
+        "id": 2597018357, //歌单ID 
+        "totalDuration": 0,
+        "ordered": false,
+        "creator": { //歌单创建者信息
+            "birthday": 842871984886, //生日
+            "detailDescription": "", //详细描述信息
+            "backgroundUrl": "http://p1.music.126.net/peG6dk9pNJlVL8-fURfZvw==/19024849695861456.jpg", //背景图
+            "gender": 1,
+            "city": 410100, //所在城市
+            "signature": "一枚可爱的程序开发爱好汪", //签名
+            "description": "", //描述
+            "accountStatus": 0,
+            "avatarImgId": 109951163688345010,
+            "defaultAvatar": false,
+            "avatarImgIdStr": "109951163688345003",
+            "backgroundImgIdStr": "19024849695861456",
+            "province": 410000, //所在省份
+            "nickname": "鼻子亲了脸", //昵称
+            "djStatus": 0,
+            "avatarUrl": "http://p1.music.126.net/qXX85T4PnmIHG2xKIhsbcQ==/109951163688345003.jpg",//头像
+            "authStatus": 0, //认证状态
+            "vipType": 11, //账号VIP类型 
+            "followed": false,
+            "userId": 115119971, //用户ID
+            "mutual": false,
+            "avatarImgId_str": "109951163688345003",
+            "authority": 0,
+            "userType": 0,
+            "backgroundImgId": 19024849695861456
+        },
+        "subscribers": [],
+        "highQuality": false, 
+        "commentThreadId": "A_PL_0_2597018357", //歌单评论ID
+        "updateTime": 1546580252461, //更新时间
+        "trackUpdateTime": 1557322785998, //歌单更新时间
+        "userId": 115119971, //歌单创建人ID
+        "tracks": [ //音乐信息 此处的音乐信息和上面的音乐详情信息一致,音乐的Json信息太长了,为了简略已经删除
+            ........
+        ],
+        "anonimous": false,
+        "tags": [],
+        "commentCount": 0, //评论数量
+        "cloudTrackCount": 0, //歌单中在网易云盘中音乐的数量
+        "coverImgUrl": "https://p1.music.126.net/UN6e5vfw6_c9MRKSEQBVig==/7986852465432828.jpg", //歌单封面
+        "playCount": 4, //播放次数
+        "coverImgId": 7986852465432828,
+        "createTime": 1546580252388,
+        "name": "鼻子亲了脸的年度歌单", //歌单名称
+        "subscribedCount": 0, //关注数量
+        "newImported": false,
+        "status": 0 //歌单状态
+    }
+}
+
+```
+
 ## 搜索
 
 说明：搜索关键词可以搜索 音乐 / 歌手 / 专辑 / 歌单 / 视频 / 电台 / 用户 / 歌词
@@ -355,6 +424,60 @@
 接口地址: `netease/songList/category`
 
 请求示例: `netease/songList/category`
+
+```json
+{
+  "code": 200,
+  "msg": "OK",
+  "timestamp": 1557323584425,
+  "data": {
+    "all": { //顶级类型 包含所有
+      "imgId": 0,
+      "activity": false,
+      "resourceCount": 1000,
+      "name": "全部歌单", //分类名称
+      "type": 0,
+      "category": 4,
+      "hot": false,
+      "resourceType": 0
+    },
+    "sub": [ //子级分类类型
+      {
+        "imgId": 0,
+        "activity": false,
+        "resourceCount": 1000,
+        "name": "流行",//子级分类名称
+        "type": 0,
+        "category": 1,
+        "hot": true,
+        "resourceType": 0
+      },
+      
+      .........
+
+      {
+        "imgId": 0,
+        "activity": false,
+        "resourceCount": 1000,
+        "name": "华语",
+        "type": 0,
+        "category": 0, //父级分类ID
+        "hot": true, 
+        "resourceType": 0
+      }
+    ],
+    "code": 200,
+    "categories": { // 父级分类类型
+      "0": "语种", //父级分类ID和名称
+      "1": "风格",
+      "2": "场景",
+      "3": "情感",
+      "4": "主题"
+    }
+  }
+}
+
+```
 
 ## 精品歌单
 
@@ -417,9 +540,9 @@
 
 ## MV 排行榜
 
-接口地址: `netease/mvList/top`
+接口地址: `netease/mv/top`
 
-请求示例: `netease/mvList/top?pageSize=10&page=0`
+请求示例: `netease/mv/top?pageSize=10&page=0`
 
 | 参数说明 | 是否必须 | 说明     | 默认值  |
 | -------- | -------- | -------- | ------- |
