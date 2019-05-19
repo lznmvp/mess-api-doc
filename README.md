@@ -56,11 +56,11 @@
 -   QQ 群 ②：261097396（群友交流）
 -   邮箱： mrdong916@163.com
 -   Github： http://github.com/mrdong916
--   Telegram: http://t.me/messapi
+-   Telegram: https://t.me/joinchat/L0YKYkTRL-EGMpC7rTshgg
 
 ## 关于项目
 
-目前没有打算开源的想法，不过有个旧版的开源项目，右上角项目地址可以访问到旧版 API [MessMusic](http://github.com/MessMusic)，如果真的想要源码，带着你的诚意来找群主讨论价格！
+目前没有打算开源的想法，不过有个旧版的开源项目，右上角项目地址可以访问到旧版 API [MessMusic](http://github.com/MessMusic)，如果真的想要源码，带着你的诚意来找群主！
 
 ## 捐赠
 
