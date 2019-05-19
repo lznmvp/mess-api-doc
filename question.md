@@ -6,31 +6,31 @@
 
 -   网易云
 
-?> URL 地址: ~~http://music.163.com/#/playlist?id=~~`2483495328`
+?> URL 地址: music.163.com/#/playlist?id=`2483495328`
 
 -   QQ 音乐
 
-?> URL 地址: ~~http://y.qq.com/n/yqq/playlist/~~`5374436553`~~.html～～
+?> URL 地址: y.qq.com/n/yqq/playlist/`5374436553`.html
 
 ### 音乐 ID
 
 -   网易云
 
-?> URL 地址: ~~http://music.163.com/#/song?id=~~`449818741`
+?> URL 地址: music.163.com/#/song?id=`449818741`
 
 -   QQ 音乐
 
-?> URL 地址: ~~http://y.qq.com/n/yqq/song/~~`002E3MtF0IAMMY`~~.html～～
+?> URL 地址: y.qq.com/n/yqq/song/`002E3MtF0IAMMY`.html
 
 ### MV ID
 
 -   网易云
 
-?> URL 地址: ~~https://music.163.com/#/mv?id=~~`380139`
+?> URL 地址: music.163.com/#/mv?id=`380139`
 
 -   QQ 音乐
 
-?> URL 地址: ~~https://y.qq.com/n/yqq/mv/v/~~`w0026q7f01a`~~.html～～
+?> URL 地址: y.qq.com/n/yqq/mv/v/`w0026q7f01a`.html
 
 等等很多 ID 都差不多是这样子,不再多说,还有问题请加群询问
 
