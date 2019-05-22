@@ -80,10 +80,6 @@ MessAPI V1.0.3
 
 [![pay.png](https://i.loli.net/2019/04/26/5cc2a151aebe2.png)](https://i.loli.net/2019/04/26/5cc2a151aebe2.png)
 
-## 更新日志
-
-由于日志太多，请前往 [更新日志](changeLog.md) 查看
-
 ## 免责声明
 
 1. 以上开发接口仅限于技术研究和项目开发练习使用，禁止商业用途，如有发现直接禁 IP 和域名
