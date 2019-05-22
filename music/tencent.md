@@ -192,7 +192,7 @@
 
 接口地址: `tencent/artist/list`
 
-请求示例: `tencent/artist/list?sexId=-100&areaId=-100&genre=-100&index=-100page=0&pageSize=30`
+请求示例: `tencent/artist/list?sexId=-100&areaId=-100&genre=-100&index=-100&page=0&pageSize=30`
 
 | 参数说明 | 是否必须 | 说明     | 默认值    |
 | -------- | -------- | -------- | --------- |
