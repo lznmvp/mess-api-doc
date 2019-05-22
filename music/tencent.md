@@ -192,12 +192,16 @@
 
 接口地址: `tencent/artist/list`
 
-请求示例: `tencent/artist/list?page=0&pageSize=30`
+请求示例: `tencent/artist/list?sexId=-100&areaId=-100&genre=-100&index=-100page=0&pageSize=30`
 
-| 参数说明 | 是否必须 | 说明     | 默认值  |
-| -------- | -------- | -------- | ------- |
-| pageSize | ×        | 获取条数 | 默认 30 |
-| page     | ×        | 分页     | 默认 0  |
+| 参数说明 | 是否必须 | 说明     | 默认值    |
+| -------- | -------- | -------- | --------- |
+| sexId    | ×        | 性别 ID  | -100 全部 |
+| areaId   | ×        | 地区 ID  | -100 全部 |
+| genre    | ×        | 类型 ID  | -100 全部 |
+| index    | ×        | 索引     | -100 全部 |
+| pageSize | ×        | 获取条数 | 默认 30   |
+| page     | ×        | 分页     | 默认 0    |
 
 ## 歌手音乐
 
